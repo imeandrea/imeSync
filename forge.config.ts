@@ -16,6 +16,7 @@ const config: ForgeConfig = {
       'src/assets'
     ],
     // Code signing configuration
+    // Replace 'YOUR_DEVELOPER_ID' with your actual Apple Developer ID
     osxSign: {
       identity: 'YOUR_DEVELOPER_ID',
       'hardened-runtime': true,
